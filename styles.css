@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+#canvas {
+  background-color: white;
+  height: 700px;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+h1 {
+  padding: 5px;
+}
+.buttons {
+  position: relative;
+  right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 500px;
+  width: 350px;
+}
+
+.grid-div {
+  border: 0.5px solid #dfdfdf;
+  padding: 0;
+  margin: 0;
+}
+button {
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 1px solid black;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+#resetButon {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#redChanger:hover {
+  background-color: #ff00003a;
+}
+
+#redChanger:active {
+  background-color: #ff000017;
+}
+
+#greenChanger:hover {
+  background-color: #25a0003a;
+}
+
+#greenChanger:active {
+  background-color: #25a00017;
+}
+
+#blueChanger:hover {
+  background-color: #002fff3a;
+}
+
+#blueChanger:active {
+  background-color: #002fff17;
+}
+
+#blackChanger:hover {
+  background-color: #0000003a;
+}
+
+#blackChanger:active {
+  background-color: #00000017;
+}
+
+#randomChanger:hover {
+  background-color: #c300ff3a;
+}
+
+#randomChanger:active {
+  background-color: #c300ff17;
+}
+
+#resetButon:hover {
+  background-color: #b8b8b8;
+}
+#changegridButton:hover {
+  background-color: #b8b8b8;
+}
+#resetButon:active {
+  background-color: #dbdbdb;
+}
+#changegridButton:active {
+  background-color: #dbdbdb;
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+  .buttons {
+    position: relative;
+    right: 0%;
+  }
+}
